@@ -8,9 +8,8 @@ $(function() {
     let parent = $(target).closest('.js-accordion');
     let content = parent.find('js-accordion-content');
 
+    e.preventDefault();
     content.slideToggle('slow');
     parent.toggleClass('is-open');
-
   });
-
 });
