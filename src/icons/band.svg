@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="39px" viewBox="0 0 40 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-0.4%" y="-0.1%" width="100.9%" height="100.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="volume" filter="url(#filter-1)" transform="translate(-462.000000, -3588.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Review" transform="translate(0.000000, 977.000000)">
+                <polygon id="Shape" points="467.318 2643.332 476.842 2634.74 471.475 2634.74 474.159 2631.831 466.625 2631.415 473.05 2627.674 466.625 2622.492 473.692 2622.131 472.08 2613.678 478.404 2619.591 482.422 2613.678 484.639 2620.191 494.201 2613.678 492.122 2623.618 496.833 2627.812 491.983 2630.306 496.833 2637.512 489.905 2636.126 489.628 2641.115 483.808 2636.403 483.254 2642.626 479.512 2636.403"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

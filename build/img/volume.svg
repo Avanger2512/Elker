@@ -1,0 +1,11 @@
+<svg width="26" height="23" viewBox="0 0 26 23" xmlns="http://www.w3.org/2000/svg">
+    <title>
+        Group
+    </title>
+    <g fill-rule="nonzero" fill="none">
+        <path stroke="#0071BC" stroke-width="2" fill="#038FDD" stroke-linecap="round" stroke-linejoin="round" d="M1.931 7.694h4.011v8.114H1.931z"/>
+        <path fill="#0071BC" d="M22.436 1.629h2.602v13.267h-2.602z"/>
+        <path fill="#0071BC" d="M22.436 17.852h2.602v2.602h-2.602z"/>
+        <path stroke="#0071BC" stroke-width="2" fill="#038FDD" stroke-linecap="round" stroke-linejoin="round" d="M5.942 7.694l9.32-6.338v20.068l-9.32-5.616z"/>
+    </g>
+</svg>

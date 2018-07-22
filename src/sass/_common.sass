@@ -1,5 +1,55 @@
-body
-	background: #FFF
-	+css-lock(16, 50, 600, 1000)
-	line-height: 1.4
+=raj-l
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif
+  font-weight: 300
+=raj-r
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif
+  font-weight: 400
+=raj-m
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif
+  font-weight: 500
+=raj-sb
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif
+  font-weight: 600
+=raj-b
+  font-family: "Rajdhani", Arial, Helvetica, sans-serif
+  font-weight: 700
 
+
+body
+  background: $bg
+  line-height: 1.4
+  font-size: 16px
+  color: $black
+  min-width: 320px
+  +raj-r
+
+
+
+
+a
+  text-decoration: none
+
+
+button
+  background: transparent
+
+
+
+.link
+  font-size: 22px
+  color: $black
+  +tr(opacity .3s)
+  &:hover
+    opacity: .8
+  &__text
+    margin-right: 20px
+    line-height: normal
+  &__pic
+    line-height: .5
+  > span
+    display: inline-block
+    vertical-align: middle
+  .icon
+    width: 5px
+    height: 20px
+    stroke: $black

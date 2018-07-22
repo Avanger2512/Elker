@@ -1,0 +1,22 @@
+.breadcrumbs
+  $this: &
+  background: $black
+  &__list
+    padding: 8px 0
+  &__item
+    display: inline-block
+    vertical-align: middle
+    &:not(:last-child)
+      &:after
+        content: '>'
+        display: inline-block
+        vertical-align: middle
+        font-size: 25px
+        color: $white
+    &:hover
+      #{$this}__link
+        opacity: .7
+  &__link
+    color: $white
+    +raj-r
+    +tr(opacity .3s)

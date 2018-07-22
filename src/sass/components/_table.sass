@@ -1,0 +1,43 @@
+.table
+  &__thead
+    border-bottom: .85px solid $gray-dark
+    td
+      font-size: 11px
+      color: $black
+      padding: 9px 10px 9px 0
+      +raj-r
+  &__text,
+  &__link
+    font-size: 16px
+    color: $black
+    +raj-r
+  &__link
+    +tr(opacity .3s)
+    &:hover
+      opacity: .8
+  &__tbody
+    td
+      padding: 17px 5px 17px 0
+      vertical-align: middle
+      font-size: 16px
+      color: $black
+      +raj-r
+    tr
+      &:not(:last-child)
+        border-bottom: .25px solid $gray-dark2
+
+
+
+.status
+  &.is-active
+    width: 7px
+    height: 7px
+    border-radius: 50%
+    background: $green
+    margin-top: -17px
+  &.is-back
+    background-image: url('../img/arr-back.svg')
+    width: 10px
+    height: 13px
+    background-size: cover
+    margin-top: -7px
