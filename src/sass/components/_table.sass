@@ -11,13 +11,15 @@
     font-size: 16px
     color: $black
     +raj-r
+    +r(960)
+      font-size: 14px
   &__link
     +tr(opacity .3s)
     &:hover
       opacity: .8
   &__tbody
     td
-      padding: 17px 5px 17px 0
+      padding: 17px 10px 17px 0
       vertical-align: middle
       font-size: 16px
       color: $black
@@ -25,7 +27,8 @@
     tr
       &:not(:last-child)
         border-bottom: .25px solid $gray-dark2
-
+  &__nowrap
+    white-space: nowrap
 
 
 .status

@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="7px" height="9px" viewBox="0 0 7 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
+    <title>leaf</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-0.4%" y="-0.1%" width="100.9%" height="100.3%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="volume" filter="url(#filter-1)" transform="translate(-534.000000, -3858.000000)" fill="#000000" fill-rule="nonzero">
-            <g id="Review" transform="translate(0.000000, 977.000000)">
-                <path d="M543.701,2882.465 C543.701,2882.465 543.014,2883.131 542.271,2883.4 C536.771,2885.389 539.09,2889.266 539.166,2889.279 C539.166,2889.279 539.474,2888.742 539.891,2888.436 C542.535,2886.492 543.072,2884.255 543.072,2884.255 C543.072,2884.255 542.479,2886.947 540.127,2888.622 C539.608,2888.992 539.256,2889.902 539.107,2890.812 C539.107,2890.812 539.475,2890.663 539.634,2890.623 C539.696,2890.22 539.825,2889.834 540.043,2889.49 C543.33,2889.881 544.407,2887.232 544.548,2886.309 C544.88,2884.127 543.701,2882.465 543.701,2882.465 Z" id="Shape"></path>
-            </g>
+        <g id="leaf" fill="#000000" fill-rule="nonzero">
+            <path d="M5.701,0.465 C5.701,0.465 5.014,1.131 4.271,1.4 C-1.229,3.389 1.09,7.266 1.166,7.279 C1.166,7.279 1.474,6.742 1.891,6.436 C4.535,4.492 5.072,2.255 5.072,2.255 C5.072,2.255 4.479,4.947 2.127,6.622 C1.608,6.992 1.256,7.902 1.107,8.812 C1.107,8.812 1.475,8.663 1.634,8.623 C1.696,8.22 1.825,7.834 2.043,7.49 C5.33,7.881 6.407,5.232 6.548,4.309 C6.88,2.127 5.701,0.465 5.701,0.465 Z" id="Shape"></path>
         </g>
     </g>
 </svg>

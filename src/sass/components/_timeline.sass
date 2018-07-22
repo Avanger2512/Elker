@@ -1,0 +1,35 @@
+.timeline
+  position: fixed
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 2
+  $this: &
+  background: $black
+  padding: 8px 0
+  &__list
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__item
+    &:last-child
+      #{$this}__text
+        color: $gray-dark3
+  &__pic
+    line-height: normal
+    .icon-check
+      margin-right: 10px
+      font-size: 18px
+      fill: $green
+    .icon-arr-full
+      margin: 3px 7px 0 0
+      font-size: 15px
+      fill: $gray-dark3
+  &__pic,
+  &__text
+    display: inline-block
+    vertical-align: middle
+  &__text
+    color: $white
+    font-size: 16px
+    +raj-r

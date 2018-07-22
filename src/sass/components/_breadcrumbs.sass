@@ -1,6 +1,8 @@
 .breadcrumbs
   $this: &
   background: $black
+  +sm
+    display: none
   &__list
     padding: 8px 0
   &__item
@@ -13,10 +15,12 @@
         vertical-align: middle
         font-size: 25px
         color: $white
-    &:hover
+    &:hover:not(:last-child)
       #{$this}__link
         opacity: .7
+    &:last-child
+      #{$this}__link
+        pointer-events: none
   &__link
     color: $white
-    +raj-r
     +tr(opacity .3s)

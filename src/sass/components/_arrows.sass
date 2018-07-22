@@ -1,0 +1,15 @@
+.arrows
+  &__prev,
+  &__next
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    z-index: 2
+  &__prev
+    left: 0
+    .link__text
+      margin: 0 0 0 20px
+    .icon
+      +rotate(-180)
+  &__next
+    right: 0

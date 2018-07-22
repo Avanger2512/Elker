@@ -1,0 +1,28 @@
+.accordion
+  $this: &
+  &__btn
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    padding-bottom: 10px
+    +tr(opacity .3s)
+    &:hover
+      opacity: .8
+  &__icon
+    +rotate(180)
+    +tr(transform .15s ease-in-out)
+    .icon
+      stroke: $black
+  &__item
+    &:not(:last-child)
+      margin-bottom: 30px
+    &.is-open
+      #{$this}__content
+        display: block
+      #{$this}__icon
+        transform-origin: 50% 50%
+        +rotate(0)
+
+  &__content
+    display: none

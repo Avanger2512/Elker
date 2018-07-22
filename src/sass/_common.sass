@@ -16,6 +16,7 @@
 
 
 body
+  position: relative
   background: $bg
   line-height: 1.4
   font-size: 16px
@@ -33,17 +34,21 @@ a
 button
   background: transparent
 
-
+img
+  max-width: 100%
 
 .link
   font-size: 22px
   color: $black
+  white-space: nowrap
   +tr(opacity .3s)
   &:hover
     opacity: .8
+  +md
+    font-size: 18px
   &__text
     margin-right: 20px
-    line-height: normal
+    line-height: 1
   &__pic
     line-height: .5
   > span

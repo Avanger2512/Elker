@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="14px" viewBox="0 0 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="17px" height="7px" viewBox="0 0 17 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
-    <title>Shape</title>
+    <title>arr-sm</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-0.4%" y="-0.1%" width="100.9%" height="100.3%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
+    <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="volume" filter="url(#filter-1)" transform="translate(-830.000000, -3960.000000)" stroke="#000000" stroke-width="2.126">
-            <g id="Review" transform="translate(0.000000, 977.000000)">
-                <polyline id="Shape" points="849.874 2986.127 842.369 2989.88 834.865 2986.127"></polyline>
-            </g>
+        <g id="arr-sm" transform="translate(0.000000, 1.000000)" stroke="#000000" stroke-width="2.126">
+            <polyline id="Shape" points="15.874 0.127 8.369 3.88 0.865 0.127"></polyline>
         </g>
     </g>
 </svg>

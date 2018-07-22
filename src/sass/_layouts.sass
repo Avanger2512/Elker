@@ -1,4 +1,5 @@
 .container
+  position: relative
   max-width: 1366px
   width: 100%
   margin: 0 auto
@@ -9,9 +10,21 @@
 .l
   font-size: 0
   margin: 0 -55px
+  +r(1200)
+    margin: 0 -20px
+  +r(960)
+    margin: 0
   &__col
     display: inline-block
     vertical-align: top
     max-width: calc(33.3% - 110px)
     width: 100%
     margin: 0 55px
+    +r(1200)
+      max-width: calc(33.3% - 40px)
+      margin: 0 20px
+    +r(960)
+      display: block
+      max-width: 400px
+      width: 100%
+      margin: 0 auto 20px auto
