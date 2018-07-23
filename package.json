@@ -68,6 +68,7 @@
   },
   "dependencies": {
     "object-fit-images": "^3.2.3",
-    "shave": "^2.2.2"
+    "shave": "^2.2.2",
+    "svg4everybody": "^2.1.9"
   }
 }

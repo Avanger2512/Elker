@@ -1,20 +1,12 @@
 import objectFitImages from 'object-fit-images';
+import svg4everybody from 'svg4everybody';
 import './components.js';
-
-
 
 objectFitImages();
 
 
 
-
-
-// $('.js-extend-parent').each(function() {
-// 	var parent = $(this),
-// 		height = parent.data('height');
-//
-// 	if (parent.prop('scrollHeight') >= height) {
-// 		$('.js-job-btn').show();
-// 		parent.css('height', height);
-// 	}
-// });
+svg4everybody({
+  nosvg: true, // shiv <svg> and <use> elements and use image fallbacks
+  polyfill: true // polyfill <use> elements for External Content
+});
