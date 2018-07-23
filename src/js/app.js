@@ -5,7 +5,7 @@ import './components.js';
 
 
 $(function() {
-  objectFitImages();
+  objectFitImages('img');
 
   svg4everybody({
     nosvg: true, // shiv <svg> and <use> elements and use image fallbacks
