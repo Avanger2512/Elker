@@ -2,11 +2,13 @@ import objectFitImages from 'object-fit-images';
 import svg4everybody from 'svg4everybody';
 import './components.js';
 
-objectFitImages();
 
 
+$(function() {
+  objectFitImages();
 
-svg4everybody({
-  nosvg: true, // shiv <svg> and <use> elements and use image fallbacks
-  polyfill: true // polyfill <use> elements for External Content
+  svg4everybody({
+    nosvg: true, // shiv <svg> and <use> elements and use image fallbacks
+    polyfill: true // polyfill <use> elements for External Content
+  });
 });
