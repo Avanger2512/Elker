@@ -67,6 +67,7 @@
     "lodash": "^4.3.0"
   },
   "dependencies": {
-    "object-fit-images": "^3.2.3"
+    "object-fit-images": "^3.2.3",
+    "shave": "^2.2.2"
   }
 }
